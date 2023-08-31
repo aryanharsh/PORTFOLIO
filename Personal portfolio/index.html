@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Website</title> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/all.css">
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Harsh.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>HI, I'm Harsh<span>Aryan</span></h1>
+            </div>
+        </div>
+    </div>
+    <!----------------about-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photu-removebg-preview.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Hello! I'm Harsh Aryan , a passionate and motivated software web developer with a strong foundation in web development principles and technologies. As a recent graduate in Computer Science, I am eager to apply my skills and knowledge to contribute to innovative web projects.
+
+                        During my academic journey, I gained hands-on experience in front-end and back-end web development, including HTML5, CSS3, JavaScript, and various frameworks like React.js. I also have a good understanding of database management systems such as MySQL and MongoDB.
+                        
+                        I enjoy tackling challenges and finding creative solutions to complex problems. Through my projects and internships, I have developed a keen eye for detail, ensuring that the websites I create are user-friendly, responsive, and visually appealing. I strive to stay up-to-date with the latest industry trends and technologies, continuously learning and improving my skills.</p>
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web App Interface</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>Java</span><br>Data Structure And Algorithm</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2022 (November-December)</span><br>Web Developer at Spark foundation</li>
+                    <li><span>2023 (August - September)</span><br>Front-end Developer at Bharat Intern</li>
+                    
+                </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2018 (Matriculation)</span><br>Krishna Public School</li>
+                    <li><span>2020 (Intermideate)</span><br>Krishna Public School</li>
+                    <li><span>2024 (B.tech) Computer Science</span><br>Chandigarh University</li>
+                </ul>
+               </div>
+                    </div>
+            </div>
+        </div>
+    </div>    
+    <!----------------services--------------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>With a blend of creativity, technical expertise, and dedication to excellence, I can assist you in elevating your online presence and enhancing your business through digital solutions.
+                 Whether it's creating a stunning website, designing eye-catching graphics, or providing digital marketing strategies, I'm here to collaborate with you and bring your vision to life.</p>
+              <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p>If you're looking for a passionate UI/UX designer to create a memorable and impactful digital experience for your audience, 
+            I'd love to hear from you. Let's collaborate and turn your ideas into a reality that leaves a lasting impression on your users.
+
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            </div>   
+        </div>
+    </div>
+    <!----------------portfolio---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>  
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app allow you to connect to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>The app allow you to connect to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                       
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online shopping  App</h3>
+                        <p>The app allow you to connect to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  
+                </div>
+            </div> 
+            <a href="#" class="btn" >See More</a> 
+        </div>
+    </div> 
+    <!----------------Contact---------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>aryanharsh008@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9109042654</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/harsh-aryan-348591200/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/aryanxharsh/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/aryan29428"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="images/HarshAryanResume (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required >
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name=" Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+           sidemenu.style.right = "0"; 
+        }
+
+        function closemenu(){
+           sidemenu.style.right = "-200px"; 
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbygn5PsQOtFJYsL9qlO9ZFHFVJ18LvLK8MHDG-tWRCllB9v6ownTzEa68sX1XBjfVk/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+   
+    </body>
+ 
+</html>
